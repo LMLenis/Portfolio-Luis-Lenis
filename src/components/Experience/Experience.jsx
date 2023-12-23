@@ -83,7 +83,7 @@ const Experience = () => {
     <div
       id="tech"
       name="Experience"
-      className=" h-screen w-screen flex flex-col items-center justify-center pt-[5%] pb-[1%]  md:pt-[370%] md:w-screen"
+      className=" h-screen w-screen flex flex-col items-center justify-center pt-[5%] pb-[1%]  md:pt-[310%] sm:pt-[400%] md:w-screen"
     >
       <h2 className="font-semibold text-[40px]">Skills</h2>
       <div className="content-center grid-cols-5 gap-8 grid sm:grid-cols-2 sm:gap-5 mt-[1%]">
