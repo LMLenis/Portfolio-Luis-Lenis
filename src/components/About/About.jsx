@@ -5,7 +5,7 @@ const About = () => {
     <div
       id="about"
       name="About"
-      className=" flex flex-col items-center  h-screen w-screen sm:static"
+      className=" flex flex-col items-center  h-screen w-screen"
     >
       <h2 className="font-semibold text-[40px] pt-[5%]">Background</h2>
 
