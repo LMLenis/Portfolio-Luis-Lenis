@@ -10,7 +10,7 @@ const About = () => {
       <h2 className="font-semibold text-[40px] pt-[5%]">Background</h2>
 
       <div className="flex flex-col items-center justify-center w-screen md:p-10  mt-[1%] pt-[1%] pb-[1%] bg-[#2B2B29] p-40">
-        <p className="text-white text-[25px] md:text-[20px]">
+        <p className="text-white text-[25px] sm:text-[15px]">
         I am Colombian, married with two children. I studied electronic engineering and telecommunications, 
         and later did postgraduate studies in Engineering Management and Renewable Energy. 
         <br/>
