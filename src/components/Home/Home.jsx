@@ -11,7 +11,7 @@ const Home = () => {
         <p className="text-[30px]" > Hi! I am</p>
         <h1 className="text-[60px] font-bold text-slate-400 md:text-[40px] font-serif" >Luis Lenis</h1> 
         <p className="text-[38px] font-semibold md:text-[30px]"> I'm a fullstack developer and electronics enginner</p> 
-        <p className="text-[30px] pt-[3%] md:text-[20px]">  I am available right now to be part of a company where I can grow as a software developer 
+        <p className="text-[30px] pt-[3%] sm:text-[15px]">  I am available right now to be part of a company where I can grow as a software developer 
         and at the same time I can contribute with my experience acquired in the world of telecommunications. 
         My greatest contribution will be in stakeholders management, on-time deliverables and user experience mindset.</p> 
         
