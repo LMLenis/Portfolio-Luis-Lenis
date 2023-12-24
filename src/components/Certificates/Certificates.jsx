@@ -33,10 +33,10 @@ const Certificate = () => {
     <div
         id = "certificate"
       name="certificate"
-      className=" h-screen w-screen flex items-center flex-col sm:pt-[240%] md:w-screen pt-[10%]"
+      className="w-screen flex items-center flex-col pt-[5%]"
     >
       <h2 className="font-semibold text-[40px]">Certificates</h2>
-      <div className="grid-cols-4 gap-4 grid md:grid-cols-1 mt-[5%] pt-[3%] pb-[10%]">
+      <div className="grid-cols-4 gap-4 grid md:grid-cols-1 mt-[5%] pt-[3%]">
         {certificates.map((t) => (
           <div key={t.name} className="w-[260px] h-[260px] right-0 mt-4 flex duration-300 hover:mr-4">
             <a href={t.hrefcredly}>

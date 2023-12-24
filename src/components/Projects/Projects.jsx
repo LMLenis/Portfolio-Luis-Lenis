@@ -34,10 +34,10 @@ const Projects = () => {
     <div
       id = "projects"
       name="Projects"
-      className="h-screen w-screen flex items-center flex-col pt-[5%] sm:pt-[80%]"
+      className="w-screen flex items-center flex-col md:static pt-[5%]"
     >
       <h2 className="font-semibold text-[40px]">My Projects</h2>
-      <div className="   gap-10 mt-10 grid grid-cols-3 md:grid-cols-1 pt-[5%]">
+      <div className="   gap-10 grid grid-cols-3 md:grid-cols-1 pt-[2%]">
         {projects.map((p) => (
           <div className="w-[300px] h-[400px]  border-red-100 border-spacing-1 border p-2 bg-slate-500 ">
             <p className="text-white  text-[25px] font-serif">{p.title}</p>

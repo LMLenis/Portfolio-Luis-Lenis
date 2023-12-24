@@ -29,12 +29,12 @@ const handleChange = (event) => {
 };
 
   return (
-    <div id= "contact" className=" w-screen 2xl:mt-20   h-screen flex items-center flex-col pt-[5%] sm:pt-[360%] ">
+    <div id= "contact" className=" w-screen flex items-center flex-col pt-[5%]">
       <h2 className="font-semibold text-[40px]">Contact</h2>
       <form
         action="https://getform.io/f/2261747c-69b5-456a-b5e8-1d7aed9f024f"
         method="POST"
-        className="flex flex-col items-center justify-center pt-10 pb-60"
+        className="flex flex-col items-center justify-center pt-10 pb-20"
       >
         <input
           type="text"
@@ -64,7 +64,7 @@ const handleChange = (event) => {
           Send
         </button>
       </form>
-      <p className="w-screen flex justify-center bg-[#2B2B29] text-white font text-[20px] py-3">© Luis Mario Lenis 2023</p>
+      
     </div>
   );
 };
