@@ -34,7 +34,7 @@ const Projects = () => {
     <div
       id = "projects"
       name="Projects"
-      className="h-screen w-screen flex items-center flex-col pt-[5%] sm:pt-[80%] md:pt-[1%]"
+      className="h-screen w-screen flex items-center flex-col pt-[5%] sm:pt-[80%]"
     >
       <h2 className="font-semibold text-[40px]">My Projects</h2>
       <div className="   gap-10 mt-10 grid grid-cols-3 md:grid-cols-1 pt-[5%]">
