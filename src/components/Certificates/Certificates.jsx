@@ -33,7 +33,7 @@ const Certificate = () => {
     <div
         id = "certificate"
       name="certificate"
-      className=" h-screen w-screen flex items-center flex-col sm:pt-[200%] md:w-screen pt-[10%]"
+      className=" h-screen w-screen flex items-center flex-col sm:pt-[240%] md:w-screen pt-[10%]"
     >
       <h2 className="font-semibold text-[40px]">Certificates</h2>
       <div className="grid-cols-4 gap-4 grid md:grid-cols-1 mt-[5%] pt-[3%] pb-[10%]">
