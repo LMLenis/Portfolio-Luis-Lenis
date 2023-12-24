@@ -8,9 +8,9 @@ const Home = () => {
         <div id="home" className="h-screen w-scrren overflow-hidden">
            
         <div className="absolute md:text-[30px] md:p-10 md:left-[1%] md:w-screen md:pt-[20%] md:static left-[20%] top-[20%] w-[880px] h-[250px] text-black font-normal">
-        <p className="text-[30px]" > Hi! I am</p>
+        <p className="text-[30px] md:text-[25px]" > Hi! I am</p>
         <h1 className="text-[60px] font-bold text-slate-400 md:text-[40px] font-serif" >Luis Lenis</h1> 
-        <p className="text-[38px] font-semibold md:text-[30px]"> I'm a fullstack developer and electronics enginner</p> 
+        <p className="text-[38px] font-semibold md:text-[25px]"> I'm a fullstack developer and electronics enginner</p> 
         <p className="text-[30px] pt-[3%] sm:text-[15px]">  I am available right now to be part of a company where I can grow as a software developer 
         and at the same time I can contribute with my experience acquired in the world of telecommunications. 
         My greatest contribution will be in stakeholders management, on-time deliverables and user experience mindset.</p> 

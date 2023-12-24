@@ -14,7 +14,7 @@ const About = () => {
         I am Colombian, married with two children. I studied electronic engineering and telecommunications, 
         and later did postgraduate studies in Engineering Management and Renewable Energy. 
         <br/>
-        I worked for more than 20 years for a company in the <a href="https://www.americamovil.com/Spanish/overview">America Movil</a> group, holding different positions, 
+        I worked for more than <a className=" duration-300 hover:bg-[#9b9ead]" href="https://drive.google.com/file/d/1AGD_nLkKWlErib_PxCYW_ZHwj2zfDERm/view">25 years</a> for a company in the <a className=" duration-300 hover:bg-[#9b9ead]" href="https://www.americamovil.com/Spanish/overview">America Movil</a> group, holding different positions, 
         such as Mobile Communication Engineer, Operation and Maintenance Manager, and finally as Senior Project Manager.
         <br/>
 
@@ -22,7 +22,7 @@ const About = () => {
         and I began studies in cloud programming, and in 2023 I began my studies as a Full Stack developer, 
         successfully completing the Henry bootcamp.
         <br/>
-        Some of the projects I worked for:<br/>
+        Some of the projects I worked for before programming:<br/>
         <a className=" duration-300 hover:bg-[#9b9ead]" href="https://www.youtube.com/watch?v=MLhiSChss18">* Integration of the GSM/UMTS mobile network in Colombia.</a><br/>
         <a className=" duration-300 hover:bg-[#9b9ead]" href="https://www.youtube.com/watch?v=3AyrcnIU-zs">* Digital Centers, a colombian goverment project to connect internet far away schools. </a><br/>
         <a className=" duration-300 hover:bg-[#9b9ead]" href="https://www.youtube.com/watch?v=PdtnlL9r2LM">* 5G Telco Cloud / Datacenter for network virtualization.</a><br/>

@@ -19,7 +19,7 @@ const Certificate = () => {
     },
     {
       name: "aws",
-      hrefcredly: "https://www.credly.com/earner/earned/badge/4bf1ca96-a283-433c-b65c-1fc858cea0db",
+      hrefcredly: "https://drive.google.com/file/d/17yB5MkNQ3D1EG60WHVM0gRPKfUD1a87i/view",
       imageSrc: aws,
     },
     {
