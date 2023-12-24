@@ -64,7 +64,7 @@ const handleChange = (event) => {
           Send
         </button>
       </form>
-      <p className="w-screen flex justify-center bg-[#2B2B29] text-white font text-[20px] py-3">© Luis Mario Lenis 2023 inc.</p>
+      <p className="w-screen flex justify-center bg-[#2B2B29] text-white font text-[20px] py-3">© Luis Mario Lenis 2023</p>
     </div>
   );
 };
