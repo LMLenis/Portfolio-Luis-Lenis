@@ -9,6 +9,7 @@ import Projects from "./components/Projects/Projects";
 import Certificate from "./components/Certificates/Certificates";
 import Contact from "./components/Contact/Contact"
 
+
 function App() {
   return (
     <div className="md:grid-cols-1 md:h-screen md:pt-[0%]">
@@ -20,7 +21,11 @@ function App() {
         <Certificate/>
         <Contact/>
         <SlideBar/>
-        <p className="static w-screen flex justify-center bg-[#2B2B29] text-white font text-[15px] py-1">© Luis Mario Lenis 2023</p>    
+        <p className="static w-screen flex justify-center bg-[#2B2B29] text-white font text-[20px] py-1">
+        <>
+        © Luis Mario Lenis 2023. All rights reserved
+        </>
+      </p>    
         
     </div>
   );
