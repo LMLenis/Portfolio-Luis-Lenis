@@ -12,7 +12,7 @@ import Contact from "./components/Contact/Contact"
 
 function App() {
   return (
-    <div className="md:grid-cols-1 md:h-screen md:pt-[0%]">
+    <div className="md:grid-cols-1 md:h-screen md:w-screen md:pt-[0%]">
         <Navbar/>
         <Home/>   
         <About/>
