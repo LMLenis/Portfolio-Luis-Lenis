@@ -35,7 +35,7 @@ const Certificate = () => {
       name="certificate"
       className="w-screen flex items-center flex-col pt-[5%]"
     >
-      <h2 className="font-semibold text-[40px]">Certificates</h2>
+      <h2 className="font-semibold text-[40px]">My Certificates</h2>
       <div className="grid-cols-4 gap-4 grid md:grid-cols-1 mt-[5%] pt-[3%]">
         {certificates.map((t) => (
           <div key={t.name} className="w-[260px] h-[260px] right-0 mt-4 flex duration-300 hover:mr-4">

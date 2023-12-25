@@ -51,7 +51,7 @@ const SlideBar = () => {
       ),
       
     },
-    {
+    /*{
       id: 6,
       child: (
         <>
@@ -61,11 +61,11 @@ const SlideBar = () => {
       href: "https://drive.google.com/file/d/18EdCcxsjpgwr2wOnyWTVpoOLbysftRHW/view",
       style: "rounded-br-md",
       download: true,
-    },
+    },*/
   ];
 
   return (
-    <div className="flex right-0 items-center bg-slate-400 bg-opacity-80 sm:p-1 sm:justify-center sm:bg-slate-400 sm:bottom-0 sm:text-[15px] sm:static fixed top-40 p-4 flex-col">
+    <div className="flex right-0 items-center bg-slate-400 bg-opacity-80 md:flex-row sm:p-1 md:justify-center md:bg-slate-400 md:bottom-0 md:text-[12px] md:static fixed top-40 p-4 flex-col">
       {links.map(({ id, child, href, download }) => (
         <div key={id} className={"right-0 mt-4 flex duration-300 hover:mr-4"}>
           <a
