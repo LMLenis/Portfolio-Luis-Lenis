@@ -40,13 +40,13 @@ const handleChange = (event) => {
           type="text"
           name="name"
           placeholder="Name"
-          className="rounded border border-slate-800 mt-6 p-1 w-[800px] 2xl:h-[40px] sm:w-[300px]  bg-slate-200"
+          className="rounded border border-slate-800 mt-6 p-1 w-[800px] 2xl:h-[40px] md:w-[300px]  bg-slate-200"
         />
         <input
           type="text"
           name="email"
           placeholder="Email"
-          className="rounded border border-slate-800 mt-6 p-1 w-[800px] 2xl:h-[40px] sm:w-[300px]  bg-slate-200"
+          className="rounded border border-slate-800 mt-6 p-1 w-[800px] 2xl:h-[40px] md:w-[300px]  bg-slate-200"
           onChange={handleChange}
         />
         {errors.email && <p>{errors.email}</p>}
@@ -55,7 +55,7 @@ const handleChange = (event) => {
           placeholder="Message"
           id=""
           resize="none"
-          className="rounded border border-slate-800 mt-6 p-1  w-[800px] 2xl:h-[200px] sm:w-[300px]  bg-slate-200"
+          className="rounded border border-slate-800 mt-6 p-1  w-[800px] 2xl:h-[200px] md:w-[300px]  bg-slate-200"
         ></textarea>
         <button
           type="submit"
