@@ -18,7 +18,7 @@ const About = () => {
         such as Mobile Communication Engineer, Operation and Maintenance Manager, and finally as Senior Project Manager.
         <br/>
 
-        In 2022, and at 50 years old, I wanted to add a technical skill as an application developer to my professional profile 
+        In 2022, I wanted to add a technical skill as an application developer to my professional profile 
         and I began studies in cloud programming, and in 2023 I began my studies as a Full Stack developer, 
         successfully completing the Henry bootcamp.
         <br/>
