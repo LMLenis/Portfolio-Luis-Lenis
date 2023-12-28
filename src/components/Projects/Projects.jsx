@@ -10,7 +10,7 @@ const Projects = () => {
       "An e-commerce for the Etnia brand that allows management of its sports wear inventory. The application allows you to filter, sort, display details, login, pay, search, delete and create products using dashboard of administrator.",
       projectsImageSrc: projectImage1,
       githubLink: "https://github.com/LMLenis/Etnia-Ecommerce",
-      deployLink: "https://etnia.vercel.app/",
+      deployLink: "https://etnia-ecommerce.vercel.app/",
     },
     {
       title: "QUIRKZ",
