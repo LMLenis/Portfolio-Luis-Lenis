@@ -46,7 +46,7 @@ const SlideBar = () => {
       id: 5,
       child: (
         <>
-          57 3103727508 < BsWhatsapp  size={25} />
+          Whatsapp < BsWhatsapp  size={25} />
         </>
       ),
       href: "https://wa.me/" + 573103727508,
