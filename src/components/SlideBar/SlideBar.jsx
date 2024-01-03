@@ -37,7 +37,7 @@ const SlideBar = () => {
       id: 4,
       child: (
         <>
-          Mail <AiFillMail size={30} />
+          E-mail <AiFillMail size={30} />
         </>
       ),
       href: "mailto:llenis73@gmail.com",
