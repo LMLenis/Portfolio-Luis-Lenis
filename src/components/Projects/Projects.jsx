@@ -37,12 +37,12 @@ const Projects = () => {
       className="w-screen flex items-center flex-col md:static pt-[5%]"
     >
       <h2 className="font-semibold text-[40px]">My Projects</h2>
-      <div className="   gap-10 grid grid-cols-3 md:grid-cols-1 pt-[2%]">
+      <div className="   gap-10 grid grid-cols-3 md:grid-cols-1 mt-[5%]">
         {projects.map((p) => (
-          <div className="relative w-[300px] h-[220px]  border-red-100 border-spacing-1 border p-2 bg-[#467afdba] ">
+          <div className="relative w-[300px] h-[220px]  border-red-100 border-spacing-1 border p-2 bg-[#42A5F5] ">
             <p className="text-white  text-[25px] font-serif">{p.title}</p>
             <img className="object-cover " src={p.projectsImageSrc} alt="" />
-            <span className="flex flex-col  p-4 absolute hover:bg-[#2e4fa4f8]   inset-0 items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+            <span className="flex flex-col  p-4 absolute hover:bg-[#2a6ba0]   inset-0 items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
               <p className="text-white">{p.description}</p>
               <div className="flex">
                 <a className="ml-20 text-white p-1 duration-300 hover:bg-[#08090f] hover:rounded font-serif"href={p.githubLink}>Code</a>

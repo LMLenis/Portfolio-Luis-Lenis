@@ -88,7 +88,7 @@ const Experience = () => {
       className="w-screen flex flex-col items-center justify-center pt-[5%]"
     >
       <h2 className="font-semibold text-[40px]">My Skills</h2>
-      <div className="content-center grid-cols-6 gap-8 grid pb-[2%] md:grid-cols-2 md:gap-5 mt-[1%]">
+      <div className="content-center grid-cols-6 gap-8 grid pb-[2%] md:grid-cols-2 md:gap-5 mt-[2%]">
         {technologies.map((t) => (
           <div key={t.name} className="w-[120px] h-[160px] justify-center items-center ">
             <img src={t.imageSrc} alt="" className="object-cover" />

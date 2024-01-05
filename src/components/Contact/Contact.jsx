@@ -40,13 +40,13 @@ const handleChange = (event) => {
           type="text"
           name="name"
           placeholder="Name"
-          className="rounded border border-slate-800 mt-6 p-1 w-[800px] 2xl:h-[40px] md:w-[300px]  bg-slate-200"
+          className="rounded border border-slate-800 mt-6 p-1 w-[800px] 2xl:h-[40px] md:w-[300px]  bg-slate-300"
         />
         <input
           type="text"
           name="email"
           placeholder="Email"
-          className="rounded border border-slate-800 mt-6 p-1 w-[800px] 2xl:h-[40px] md:w-[300px]  bg-slate-200"
+          className="rounded border border-slate-800 mt-6 p-1 w-[800px] 2xl:h-[40px] md:w-[300px]  bg-slate-300"
           onChange={handleChange}
         />
         {errors.email && <p>{errors.email}</p>}
@@ -55,11 +55,11 @@ const handleChange = (event) => {
           placeholder="Message"
           id=""
           resize="none"
-          className="rounded border border-slate-800 mt-6 p-1  w-[800px] 2xl:h-[200px] md:w-[300px]  bg-slate-200"
+          className="rounded border border-slate-800 mt-6 p-1  w-[800px] 2xl:h-[200px] md:w-[300px]  bg-slate-300"
         ></textarea>
         <button
           type="submit"
-          className="rounded border border-slate-800 mt-8 2xl:w-[160px] sm:w-[120px] p-2 bg-[#467afdba] text-white text-[20px] duration-300 hover:bg-[#153a97f8]"
+          className="rounded border border-slate-800 mt-8 2xl:w-[160px] sm:w-[120px] p-2 bg-[#42A5F5] text-white text-[20px] duration-300 hover:bg-[#2a6ba0]"
         >
           Send
         </button>
