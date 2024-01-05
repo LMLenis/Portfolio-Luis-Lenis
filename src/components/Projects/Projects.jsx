@@ -15,7 +15,7 @@ const Projects = () => {
     {
       title: "QUIRKZ",
       description:
-        "Design and develop an market place for shoe sale that allows management of its inventory. The application allows you to filter, sort, display details, login, pay, search, delete, edit and create products using dashboard of administrator.",
+        "Design and develop an market place for shoes sale that allows management of its inventory. The application allows you to filter, sort, display details, login, pay, search, delete, edit and create products using dashboard of administrator.",
       projectsImageSrc: projectImage2,
       githubLink: "https://github.com/LMLenis/Proyecto-Final-Client-Quirkz",
       deployLink: "https://quirkzmain.vercel.app/",
@@ -39,16 +39,16 @@ const Projects = () => {
       <h2 className="font-semibold text-[40px]">My Projects</h2>
       <div className="   gap-10 grid grid-cols-3 md:grid-cols-1 pt-[2%]">
         {projects.map((p) => (
-          <div className="w-[300px] h-[400px]  border-red-100 border-spacing-1 border p-2 bg-slate-500 ">
+          <div className="relative w-[300px] h-[220px]  border-red-100 border-spacing-1 border p-2 bg-[#467afdba] ">
             <p className="text-white  text-[25px] font-serif">{p.title}</p>
             <img className="object-cover " src={p.projectsImageSrc} alt="" />
-            
+            <span className="flex flex-col  p-4 absolute hover:bg-[#2e4fa4f8]   inset-0 items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
               <p className="text-white">{p.description}</p>
               <div className="flex">
-                <a className="ml-20 text-white p-1 duration-300 hover:bg-[#08090f] font-serif"href={p.githubLink}>Code</a>
-                <a className="ml-12 text-white p-1 duration-300 hover:bg-[#08090f] font-serif" href={p.deployLink}>Deploy</a>
+                <a className="ml-20 text-white p-1 duration-300 hover:bg-[#08090f] hover:rounded font-serif"href={p.githubLink}>Code</a>
+                <a className="ml-12 text-white p-1 duration-300 hover:bg-[#08090f] hover:rounded font-serif" href={p.deployLink}>Deploy</a>
               </div>
-            
+            </span>
           </div>
         ))}
       </div>

@@ -14,10 +14,10 @@ function App() {
   return (
     <div className="md:grid-cols-1 md:h-screen md:w-screen md:pt-[0%]">
         <Navbar/>
-        <Home/>   
+        <Home/>
+        <Experience/>
         <About/>
         <Projects/>
-        <Experience/>
         <Certificate/>
         <Contact/>
         <SlideBar/>

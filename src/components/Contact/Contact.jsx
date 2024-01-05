@@ -59,7 +59,7 @@ const handleChange = (event) => {
         ></textarea>
         <button
           type="submit"
-          className="rounded border border-slate-800 mt-8 2xl:w-[160px] sm:w-[120px] p-2 bg-[#2B2B29] text-white text-[20px] duration-300 hover:bg-slate-400"
+          className="rounded border border-slate-800 mt-8 2xl:w-[160px] sm:w-[120px] p-2 bg-[#467afdba] text-white text-[20px] duration-300 hover:bg-[#153a97f8]"
         >
           Send
         </button>

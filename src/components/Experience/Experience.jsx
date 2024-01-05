@@ -60,7 +60,9 @@ const Experience = () => {
     {
       name: "Postgresql",
       imageSrc: postgresql,
-    },
+    }
+  ];
+  const tools = [
     {
       name: "Discord",
       imageSrc: discord,
@@ -86,15 +88,23 @@ const Experience = () => {
       className="w-screen flex flex-col items-center justify-center pt-[5%]"
     >
       <h2 className="font-semibold text-[40px]">My Skills</h2>
-      <div className="content-center grid-cols-5 gap-8 grid md:grid-cols-2 md:gap-5 mt-[1%]">
+      <div className="content-center grid-cols-6 gap-8 grid pb-[2%] md:grid-cols-2 md:gap-5 mt-[1%]">
         {technologies.map((t) => (
-          <div key={t.name} className="w-[130px] h-[160px] justify-center items-center  border-red-100 border-spacing-1 border p-3 bg-slate-300 ">
+          <div key={t.name} className="w-[120px] h-[160px] justify-center items-center ">
             <img src={t.imageSrc} alt="" className="object-cover" />
-            <p className="font-semibold">{t.name}</p>
+            
           </div>
         ))}
       </div>
-      
+      <h2 className="font-semibold text-[40px]">Tools</h2>
+      <div className="content-center grid-cols-4 gap-8 grid md:grid-cols-2 md:gap-5 mt-[1%]">
+        {tools.map((t) => (
+          <div key={t.name} className="w-[120px] h-[160px] justify-center items-center ">
+            <img src={t.imageSrc} alt="" className="object-cover" />
+            
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
