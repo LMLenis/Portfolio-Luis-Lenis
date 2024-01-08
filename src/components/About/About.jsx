@@ -15,7 +15,7 @@ const About = () => {
         and later did postgraduate studies in Engineering Management and Renewable Energy. 
         <br/>
         I worked for more than <a className=" duration-300 hover:bg-[#2a6ba0]" href="https://drive.google.com/file/d/1AGD_nLkKWlErib_PxCYW_ZHwj2zfDERm/view">25 years</a> for a company in the <a className=" duration-300 hover:bg-[#2a6ba0]" href="https://www.americamovil.com/Spanish/overview">America Movil</a> group, holding different positions, 
-        such as Mobile Communication Engineer, Operation and Maintenance Manager, and finally as Senior Project Manager.
+        such as Mobile Communication Engineer, Operation and Maintenance Manager, and finally as Project Manager.
         <br/>
 
         In 2022, I wanted to add a technical skill as an application developer to my professional profile 
