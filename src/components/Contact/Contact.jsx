@@ -29,12 +29,12 @@ const handleChange = (event) => {
 };
 
   return (
-    <div id= "contact" className=" w-screen flex items-center flex-col pt-[5%]">
+    <div id= "contact" className=" w-screen flex items-center flex-col pt-[8%]">
       <h2 className="font-semibold text-[40px]">Contact me</h2>
       <form
         action="https://getform.io/f/2261747c-69b5-456a-b5e8-1d7aed9f024f"
         method="POST"
-        className="flex flex-col items-center justify-center pt-10 pb-20"
+        className="flex flex-col items-center justify-center pt-6 pb-20"
       >
         <input
           type="text"

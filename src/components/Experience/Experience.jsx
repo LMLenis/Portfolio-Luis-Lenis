@@ -14,23 +14,24 @@ import github from "../../assets/tools/GitHub.png";
 import slack from "../../assets/tools/Slack.png";
 import visual from "../../assets/tools/Visual_Studio.png";
 import tailwind from "../../assets/technologies/tailwind.png";
+import trello from "../../assets/tools/trello.png";
 
 const Experience = () => {
   const technologies = [
     {
-      name: "Javascript",
+      name: "JavaScript",
       imageSrc: javascript,
     },
     {
-      name: "CSS",
+      name: "CSS3",
       imageSrc: css,
     },
     {
-      name: "HTML",
+      name: "HTML5",
       imageSrc: html,
     },
     {
-      name: "Tailwind",
+      name: "Tailwindcss",
       imageSrc: tailwind,
     },
     {
@@ -79,6 +80,10 @@ const Experience = () => {
       name: "VSC",
       imageSrc: visual,
     },
+    {
+      name: "Trello",
+      imageSrc: trello,
+    },
   ];
 
   return (
@@ -88,20 +93,24 @@ const Experience = () => {
       className="w-screen flex flex-col items-center justify-center pt-[5%]"
     >
       <h2 className="font-semibold text-[40px]">My Skills</h2>
-      <div className="content-center grid-cols-6 gap-8 grid pb-[2%] md:grid-cols-2 md:gap-5 mt-[2%]">
+      <div className="content-center grid-cols-6 gap-10 grid md:grid-cols-2 md:gap-5 mt-[2%]">
         {technologies.map((t) => (
-          <div key={t.name} className="w-[120px] h-[160px] justify-center items-center ">
+          <div key={t.name} className="w-[100px] h-[120px] justify-center items-center relative ">
             <img src={t.imageSrc} alt="" className="object-cover" />
-            
+            <span className="flex flex-col  p-4 absolute hover:bg-white inset-0 items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+              <p className="text-black font-bold text-[20px]">{t.name}</p>
+            </span>
           </div>
         ))}
       </div>
-      <h2 className="font-semibold text-[40px]">Tools</h2>
-      <div className="content-center grid-cols-4 gap-8 grid md:grid-cols-2 md:gap-5 mt-[1%]">
+      <h2 className="font-semibold text-[40px] mt-[2%]">Tools</h2>
+      <div className="content-center grid-cols-5 gap-10 grid md:grid-cols-2 md:gap-5 mt-[2%]">
         {tools.map((t) => (
-          <div key={t.name} className="w-[120px] h-[160px] justify-center items-center ">
+          <div key={t.name} className="w-[100px] h-[100px] justify-center items-center relative">
             <img src={t.imageSrc} alt="" className="object-cover" />
-            
+            <span className="flex flex-col  p-4 absolute hover:bg-white inset-0 items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+              <p className="text-black font-bold text-[20px]">{t.name}</p>
+            </span>
           </div>
         ))}
       </div>
