@@ -3,7 +3,7 @@ import javascript from "../../assets/technologies/javascript.png";
 import html from "../../assets/technologies/html.png";
 import css from "../../assets/technologies/css.png";
 import nodejs from "../../assets/technologies/Nodejs.png";
-import express from "../../assets/technologies/Express.png";
+import expressjs from "../../assets/technologies/Express.png";
 import reactjs from "../../assets/technologies/reactjs.png";
 import redux from "../../assets/technologies/Redux.png";
 import sequelize from "../../assets/technologies/sequelize.png";
@@ -39,8 +39,8 @@ const Experience = () => {
       imageSrc: nodejs,
     },
     {
-      name: "Express",
-      imageSrc: express,
+      name: "Expressjs",
+      imageSrc: expressjs,
     },
     {
       name: "Reactjs",
