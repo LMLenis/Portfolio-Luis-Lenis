@@ -12,11 +12,11 @@ const Home = () => {
         <h1 className="text-[60px] font-bold md:text-[40px] font-serif text-[#42A5F5]" >Luis Lenis</h1> 
         <p className="text-[40px] font-semibold sm:text-[30px]">Project manager and fullstack developer</p> 
         <p className="text-[30px] pt-[3%] sm:text-[24px] text-justify">  I am available right now to be part of a company where I can grow 
-        and at the same time I can contribute with my experience acquired in the world of telecommunications. <br/>
+        and at the same time I can contribute with my experience acquired in the world of telecommunications and IT. <br/>
         My greatest contribution will be in stakeholders management, on-time deliverables and user experience mindset.</p> 
         
         <a
-            href="https://drive.google.com/file/d/19CXFqXbNKCjOdizD2gxLiSagsRS6zSaP/view">
+            href="https://drive.google.com/file/d/1iQPvUJ285kkVq5XYqIj56ApDHW3SIe6t/view">
         <button
           type="submit"
           className="rounded border border-slate-800 mt-8 w-[160px] p-2 font-semibold bg-[#42A5F5] text-white text-[20px] duration-300 hover:bg-[#2a6ba0]"
