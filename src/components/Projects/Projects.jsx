@@ -1,6 +1,6 @@
 import projectImage1 from "../../assets/projects/ETNIA.png";
-import projectImage2 from "../../assets/projects/Quirkz.png"
-import projectImage3 from "../../assets/projects/Drivers.png"
+import projectImage2 from "../../assets/projects/Granja.png";
+import projectImage3 from "../../assets/projects/Drivers.png";
 
 const Projects = () => {
   const projects = [
@@ -13,12 +13,12 @@ const Projects = () => {
       deployLink: "https://etnia-ecommerce.vercel.app/",
     },
     {
-      title: "QUIRKZ",
+      title: "La Granja de Pili",
       description:
-        "Design and develop an market place for shoes sale that allows management of its inventory. The application allows you to filter, sort, display details, login, pay, search, delete, edit and create products using dashboard of administrator.",
+        "It's a bilingual (English and Spanish) website for a farm a sustainable agroecological farm. Using advanced tools such as Javascript, React, Redux for frontend development, and Node.js, Sequelize, Express and PostgreSQL for backend.",
       projectsImageSrc: projectImage2,
-      githubLink: "https://github.com/LMLenis/Proyecto-Final-Client-Quirkz",
-      deployLink: "https://quirkzmain.vercel.app/",
+      githubLink: "Private",
+      deployLink: "https://www.lagranjadepili.com/",
     },
     {
       title: "DRIVERS",

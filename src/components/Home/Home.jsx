@@ -16,7 +16,7 @@ const Home = () => {
         My greatest contribution will be in stakeholders management, on-time deliverables and user experience mindset.</p> 
         
         <a
-            href="https://drive.google.com/file/d/1iQPvUJ285kkVq5XYqIj56ApDHW3SIe6t/view">
+            href="https://drive.google.com/file/d/19aF-fiCkYEL59RhHuchxU-6pkY29X7-4/view">
         <button
           type="submit"
           className="rounded border border-slate-800 mt-8 w-[180px] p-2 font-semibold bg-[#42A5F5] text-white text-[20px] duration-300 hover:bg-[#2a6ba0]"
