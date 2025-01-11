@@ -19,10 +19,9 @@ const About = () => {
         <br/>
 
         In 2022, I wanted to add a technical skill as an application developer to my professional profile 
-        and I began studies in cloud programming, and in 2023 I began my studies as a Full Stack developer, 
-        successfully completing the <a className=" duration-300 hover:bg-[#2a6ba0]" 
-        href="https://d2rf2c6bvm78n9.cloudfront.net/new-cert?id=9dbcdf3a047400e69b839de1e48df385d24fb9bd3aff98465983440347d595d2">Henry bootcamp. </a> 
-        Actually, I´m consultant for a core migration and digital transformation project for a financial organization.
+        and I began studies in cloud programming, and in 2023 I finished my studies as a Full Stack developer.       
+        In 2024, I was consultant for a core migration and digital transformation project for a financial organization.
+        Currently, I work as a consultant on an ITSM process optimization project
         <br/>
         Some of the projects I had worked:<br/>
         <a className=" duration-300 hover:bg-[#2a6ba0]" href="https://www.youtube.com/watch?v=MLhiSChss18">* Integration of the GSM/UMTS mobile network in Colombia.</a><br/>
