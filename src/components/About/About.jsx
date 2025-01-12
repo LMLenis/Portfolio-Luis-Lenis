@@ -21,7 +21,7 @@ const About = () => {
         In 2022, I wanted to add a technical skill as an application developer to my professional profile 
         and I began studies in cloud programming, and in 2023 I finished my studies as a Full Stack developer.       
         In 2024, I was consultant for a core migration and digital transformation project for a financial organization.
-        Currently, I work as a consultant on an ITSM process optimization project
+        Currently, I'm working as a consultant on an ITSM process optimization project
         <br/>
         Some of the projects I had worked:<br/>
         <a className=" duration-300 hover:bg-[#2a6ba0]" href="https://www.youtube.com/watch?v=MLhiSChss18">* Integration of the GSM/UMTS mobile network in Colombia.</a><br/>
