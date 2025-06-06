@@ -9,7 +9,7 @@ const Certificate = () => {
   const certificates = [
     {
       name: "pmp",
-      hrefcredly: "https://drive.google.com/file/d/1VAXXg_BXHIanvG8uFQ9JMAWTRAitzItA/view",
+      hrefcredly: "https://drive.google.com/file/d/1kvxxXODZUKeLEfCjoE5ITSNHIKZJTQSU/view",
       imageSrc: pmp,
     },
     {
