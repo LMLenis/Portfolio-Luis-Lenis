@@ -22,7 +22,7 @@ const SlideBar = () => {
           GitHub <AiFillGithub size={30} />
         </>
       ),
-      href: "https://github.com/LMLenis",
+      href: "https://www.linkedin.com/in/luis-mario-lenis-gil-64214189/",
     },
     {
       id: 3,
