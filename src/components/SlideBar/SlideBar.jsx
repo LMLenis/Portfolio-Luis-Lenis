@@ -13,7 +13,7 @@ const SlideBar = () => {
           Linkedin <AiFillLinkedin size={30} className="cursor-pointer" />
         </>
       ),
-      href: "https://www.linkedin.com/in/luis-mario-lenis-gil-64214189/",
+      href: "www.linkedin.com/in/luis-lenis",
     },
     {
       id: 2,
