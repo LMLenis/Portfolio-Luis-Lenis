@@ -15,7 +15,7 @@ const Projects = () => {
     {
       title: "La Granja de Pili",
       description:
-        "It's a bilingual (English and Spanish) website for a farm a sustainable agroecological farm. Using advanced tools such as Javascript, React, Redux for frontend development, and Node.js, Sequelize, Express and PostgreSQL for backend.",
+        "It's a bilingual (English and Spanish) and responsive website for a farm a sustainable agroecological farm. Using advanced tools such as Javascript, React, Redux for frontend development, and Node.js, Sequelize, Express and PostgreSQL for backend.",
       projectsImageSrc: projectImage2,
       githubLink: "Private",
       deployLink: "https://www.lagranjadepili.com/",
