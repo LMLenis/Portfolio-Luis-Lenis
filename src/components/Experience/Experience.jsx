@@ -15,6 +15,7 @@ import slack from "../../assets/tools/Slack.png";
 import visual from "../../assets/tools/Visual_Studio.png";
 import tailwind from "../../assets/technologies/tailwind.png";
 import trello from "../../assets/tools/trello.png";
+import phyton from "../../assets/technologies/Python.png";
 
 const Experience = () => {
   const technologies = [
@@ -61,6 +62,10 @@ const Experience = () => {
     {
       name: "Postgresql",
       imageSrc: postgresql,
+    },
+    {
+      name: "Phyton",
+      imageSrc: phyton,
     }
   ];
   const tools = [
