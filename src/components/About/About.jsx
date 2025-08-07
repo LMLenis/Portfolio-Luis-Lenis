@@ -25,7 +25,7 @@ const About = () => {
         <br/>
         Some of the projects I had worked:<br/>
         <a className=" duration-300 hover:bg-[#2a6ba0]" href="https://www.youtube.com/watch?v=MLhiSChss18">* Integration of the GSM/UMTS mobile network in Colombia.</a><br/>
-        <a className=" duration-300 hover:bg-[#2a6ba0]" href="https://www.youtube.com/watch?v=3AyrcnIU-zs">* Digital Centers, a colombian goverment project to connect internet far away schools. </a><br/>
+        <a className=" duration-300 hover:bg-[#2a6ba0]" href="https://www.youtube.com/watch?v=zEk5i_RnSco">* Audit the migration to Cobis-Topaz Core Banking. </a><br/>
         <a className=" duration-300 hover:bg-[#2a6ba0]" href="https://www.youtube.com/watch?v=PdtnlL9r2LM">* 5G Telco Cloud / Datacenter for network virtualization.</a><br/>
         <br/>
         <a className=" duration-300 hover:bg-[#2a6ba0]" href="https://www.efset.org/cert/w5AQNk">English level: intermediate.</a>
