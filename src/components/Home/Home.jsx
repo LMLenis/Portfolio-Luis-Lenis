@@ -11,12 +11,11 @@ const Home = () => {
         
         <h1 className="text-[60px] font-bold md:text-[40px] font-serif text-[#42A5F5]" >Luis Lenis</h1> 
         <p className="text-[40px] font-semibold sm:text-[30px]">Project manager</p> 
-        <p className="text-[30px] pt-[3%] sm:text-[24px] text-justify">  Right now I am consultant for a company where I am applying digital transformation 
-        and at the same time I am contributing with my experience acquired in the world of telecommunications and IT. <br/>
-        My greatest contribution now is in process optimization with RPA and AI applications.</p> 
+        <p className="text-[30px] pt-[3%] sm:text-[24px] text-justify">  I currently work as an independent consultant, leading digital transformation initiatives and applying the experience I've gained over the years in the telecommunications and IT sectors. <br/>
+        My main contribution is focused on process optimization through the development of software solutions using RPA and AI technologies.</p> 
         
         <a
-            href="https://drive.google.com/file/d/17rJiSoz6ZPqkX_EfTnmzC6o790DImi0v/view">
+            href="https://drive.google.com/file/d/1ElPqTV4-EiYLYGA6TyBwEFurOkzwBdh_/view">
         <button
           type="submit"
           className="rounded border border-slate-800 mt-8 w-[180px] p-2 font-semibold bg-[#42A5F5] text-white text-[20px] duration-300 hover:bg-[#2a6ba0]"
