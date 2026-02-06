@@ -16,6 +16,7 @@ import visual from "../../assets/tools/Visual_Studio.png";
 import tailwind from "../../assets/technologies/tailwind.png";
 import trello from "../../assets/tools/trello.png";
 import phyton from "../../assets/technologies/Python.png";
+import powerbi from "../../assets/technologies/power_bi.png";
 
 const Experience = () => {
   const technologies = [
@@ -89,6 +90,10 @@ const Experience = () => {
       name: "Trello",
       imageSrc: trello,
     },
+    {
+      name: "Power BI",
+      imageSrc: powerbi,
+    },
   ];
 
   return (
@@ -109,7 +114,7 @@ const Experience = () => {
         ))}
       </div>
       <h2 className="font-semibold text-[40px] mt-[2%]">Tools</h2>
-      <div className="content-center grid-cols-5 gap-10 grid md:grid-cols-2 md:gap-5 mt-[2%]">
+      <div className="content-center grid-cols-6 gap-10 grid md:grid-cols-2 md:gap-5 mt-[2%]">
         {tools.map((t) => (
           <div key={t.name} className="w-[100px] h-[100px] justify-center items-center relative">
             <img src={t.imageSrc} alt="" className="object-cover" />
